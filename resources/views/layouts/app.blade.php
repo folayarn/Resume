@@ -42,7 +42,7 @@ $('#myModal').on('show.bs.modal', function (event) {
   modal.find('.modal-body p').text(body)
   modal.find('ul .date').text(create)
   modal.find('ul .name').text(name)
-})
+});
 
 
 

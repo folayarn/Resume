@@ -13,7 +13,6 @@ class PagesController extends Controller
         'skills','project','contact']]);
     }
 
-
     public function index(){
         return view('pages.index');
 

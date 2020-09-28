@@ -8,7 +8,7 @@
 <h1 class="text-center" style="font-family:E-SQUARE; padding-bottom:15px">{{$posts->title}}</h1>
 </div>
 <div class="col-md-12">
-<img class="img-responsive" src="/storage/images/{{$posts->image}}" width="100%" height="400px">
+<img class="img-responsive" src="{{$posts->image}}" width="100%" height="400px">
 </div>
 <div class="col-md-12" style="padding-top:20px; padding-bottom:30px">
     <div class="row">

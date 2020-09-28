@@ -23,7 +23,7 @@
     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="step" style="padding:8px">
 <div class="thumbnail">
 <a href="/posts/{{$post->id}}" style="text-decoration:none">
-    <img src="/storage/images/{{$post->image}}" id="post_image" class="img-fluid">
+    <img src="{{$post->image}}" id="post_image" class="img-fluid">
 </a>
 </div>
 </div>

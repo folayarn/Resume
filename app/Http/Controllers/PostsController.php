@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+use JD\Cloudder\Facades\Cloudder;
 class PostsController extends Controller
 {
      /**
@@ -49,11 +50,11 @@ class PostsController extends Controller
 'description'=>'required'
         ]);
 if($request->hasFile('cover_image')){
-$fileNamewithExt= $request->file('cover_image')->getClientOriginalName();
-$filename=pathinfo($fileNamewithExt,PATHINFO_FILENAME);
-$extension=$request->file('cover_image')->getClientOriginalExtension();
-$filenameTostore= $filename.'_'.time() .'.'.$extension;
-$path=$request->file('cover_image')->storeAs('public/images',$filenameTostore);
+    $image_name = $request->file('cover_image')->getRealPath();
+    Cloudder::upload($image_name, null);
+    list($width, $height) = getimagesize($image_name);
+$filenameTostore= Cloudder::show(Cloudder::getPublicId(),
+["width" => $width, "height"=>$height]);
 
 }else{
 
@@ -113,12 +114,11 @@ $path=$request->file('cover_image')->storeAs('public/images',$filenameTostore);
             'description'=>'required'
                     ]);
             if($request->hasFile('cover_image')){
-            $fileNamewithExt= $request->file('cover_image')->getClientOriginalName();
-            $filename=pathinfo($fileNamewithExt,PATHINFO_FILENAME);
-            $extension=$request->file('cover_image')->getClientOriginalExtension();
-            $filenameTostore= $filename.'_'.time() .'.'.$extension;
-            $path=$request->file('cover_image')->storeAs('public/images',$filenameTostore);
-
+            $image_name = $request->file('cover_image')->getRealPath();
+            Cloudder::upload($image_name, null);
+            list($width, $height) = getimagesize($image_name);
+       $filenameTostore= Cloudder::show(Cloudder::getPublicId(),
+        ["width" => $width, "height"=>$height]);
             }else{
 
                 $filenameTostore='back.jpg';
