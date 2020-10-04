@@ -22,7 +22,6 @@ Route::get('/home', 'HomeController@index');
 Route::resource('posts', 'PostsController');
 
 Auth::routes();
-Auth::routes();
 
 Route::get('/works','PagesController@mywork');
 

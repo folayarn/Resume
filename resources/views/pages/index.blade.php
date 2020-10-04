@@ -12,23 +12,23 @@
 
 <span id="text1">Hello!</span>
 
-<p  id="text2"> I am an experienced design lover based in Nigeria,
-<span>I am available for freelance work and projects</span>.
-<span>I also specialized in full- stack web development and graphics
-     design.</span></p><br>
+<p  id="text2"> I am an Experienced Designer based in Nigeria,
+<span>I am available for Freelance Work and Projects</span>.
+<span>I also specialized in Full-Stack Web Development and Graphics
+     Design.</span></p><br>
 <div class="rot">
      <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 text-center">
-<span style=" font-family:Bodoni Bk BT " id="text3">More info and contact here</span>
+<span style=" font-family:Bodoni Bk BT " id="text3">For More info</span>
      </div>
      <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
 <button class="btn-lg btn-default" style="border:2px solid green">
-    <a href="/contact" id="text3"> Hire me</a> <span class="glyphicon glyphicon-arrow-right">
+    <a href="/contact" id="text3">Click Here</a> <span class="glyphicon glyphicon-arrow-right">
     </span></button></div>
     </div>
     </div>
 
 </div>
-<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
+<div id="social" class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center">
 
     <ul id="ul">
 <li><a href="https://www.facebook.com/folayan.shola">Facebook</a></li>
@@ -37,5 +37,5 @@
     </ul>
 </div>
 </div></div>
-</div>
+
 @endsection

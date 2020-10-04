@@ -3,11 +3,11 @@
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center" id="center">
 <p>I obtained some skills which include front-end and back-end Development, also with Graphics Design...</p>
 <br>
-<a href="#id" id="button"> Learn More </a>
+<span id="button"> Learn More </span>
 </div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="id">
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"
-style="margin-top:30px"><h2> Languages</h2></div>
+style="margin-top:30px; padding:7px; border-bottom:1px solid rgb(223, 221, 221)"><h2> Languages</h2></div>
 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
     <div class="row" style="padding:10px; margin-top:30px">
         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 ">
@@ -68,7 +68,7 @@ style="margin-top:30px"><h2> Languages</h2></div>
 
 <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10" id="doom">
     <div class="row" style="margin-top:20px">
-<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ">
     <span >Databases</span>
     <ul>
 <li>SQL</li>
@@ -77,7 +77,7 @@ style="margin-top:30px"><h2> Languages</h2></div>
 
     </ul>
 </div>
-<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+<div class="col-xs-10 col-sm-10 col-md-5 col-lg-5">
     <span>Graphics Design</span>
     <ul>
 <li>Photoshop</li>
@@ -87,7 +87,7 @@ style="margin-top:30px"><h2> Languages</h2></div>
     </ul>
 
 </div>
-<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+<div class="col-xs-10 col-sm-10 col-md-5 col-lg-5">
     <span>Frameworks</span>
     <ul>
 <li>PHP Laravel</li>
@@ -99,6 +99,8 @@ style="margin-top:30px"><h2> Languages</h2></div>
 
 </div>
     </div></div>
+
+
 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1"></div>
 
     </div>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <link rel="icon" href="{{asset('OL.png')}}" type="image/icon type">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- CSRF Token -->
@@ -47,5 +48,9 @@ $('#myModal').on('show.bs.modal', function (event) {
 
 
 </script>
+<script defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwhke8tmqhDKFSHTLHR_rMTl0BYjDqdQM&callback=initMap">
+    </script>
+
     </body>
 </html>

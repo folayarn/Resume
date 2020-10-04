@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
     <div class="container-fluid">
-    <a class="navbar-brand" href="/">{{config('app.name','MyCV')}}</a>
+    <a class="navbar-brand" href="/"><img src="{{asset('OL.png')}}" width="50" height="50" /></a>
     <button  class="navbar-toggler btn btn-lg btn-success" type="button"
      data-toggle="collapse" data-target="#navbarsExampleDefault"
      aria-controls="navbarsExampleDefault"
@@ -12,7 +12,7 @@
 
     <div class="collapse navbar-collapse " id="navbarsExampleDefault">
 
-      <ul class="navbar-nav" id="pully">
+      <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="/">Home</a>
         </li>
@@ -49,9 +49,9 @@
                 </div>
             </li>
         @endguest
-
-
-            <a class="nav-link" href="/skills">Skills</a></li>
+        <li class="nav-item ">
+            <a class="nav-link" href="/skills">Skills</a>
+        </li>
             <li class="nav-item ">
 
                 <a class="nav-link" href="/posts">Projects</a>

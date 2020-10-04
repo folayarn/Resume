@@ -1,22 +1,60 @@
 
+*{
+    color:green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
 
+
+}
+body{
+    background-color:white ;
+}
+a:hover{
+    text-decoration: none;
+}
 .navbar-light .navbar-nav .nav-link,
  .navbar-light .navbar-toggler,.navbar-light .navbar-brand,.navbar-light a,a
     {
         color:green;
     }
 
+#id{
+    display: none;
+}
+.circle{
+    margin-bottom:20px;
+    border-radius: 30%;
 
-
-*{
-    color:green;
+   margin-left: 140px;
 
 }
-#gree{
 
-    margin-left: 0px;
+.about{
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+margin-left: 140px;
 
 
+}
+.container,.row{
+    margin: 0px;
+    padding: 0px;
+}
+
+.about div{
+    margin: 30px;
+
+background-color: green;
+    }
+
+    .about div span{
+padding:14px;
+        font-weight: bolder;
+        font-size: 20pt;
+        color: white;
     }
 
 .modal {
@@ -24,7 +62,7 @@
 }
 
 #post_image:hover{
-width: 90%;
+max-width: 90%;
 height: 90%;
 opacity: 0.90;
 }
@@ -33,51 +71,205 @@ opacity: 0.90;
     margin-top:10px;
     background:#eff7f0;
     border-left:3px solid green;
+
+}
+.card{
+    margin-top:100px;
 }
 
 #well #h5 a:after{
      color:#b8ee7d;
  }
+ #map {
+    height: 100%;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
 
 nav{
-    font-size:10pt;
+    font-size:14pt;
      font-family:Aliens & cows;
      text-transform: uppercase;
+     background-color: white;
+
 }
-p{
-    font-family:Bauhaus 93;
+
+#message{
+    padding:10px;
+    border:2px solid green;
+     text-decoration:none;
+     cursor: pointer;
 }
-
-.navbar-brand{
-    font-size:25pt;
-    font-family:Cinema St;
-    }
-
-
 #main_s2{
 height:auto;
 background:white;
 margin-bottom: 30px;
+
 }
 
-@media screen and (min-width: 774px)
+
+#side{
+    background-color: green;
+    height: auto;
+    margin-top: 40px;
+}
+#side table tr td{
+    color:white;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 15pt;
+}
+#side table{
+    margin-top: 30px;
+}
+
+#doom{
+    margin-top: 30px;
+    background-color: green;
+    height: auto;
+    margin-bottom: 30px;
+    color: white;
+
+}
+#doom ul li{
+    color:white;
+    display:block;
+    list-style:none;
+    font-size: small;
+    padding: 5px;
+}
+a:hover{
+    color:green;
+}
+
+#doom span{
+    color:white;
+    font-size: 20pt;
+    font-weight: bold;
+
+}
+
+#ro{
+    font-family: E-SQUARE;
+    font-size: 15pt;
+    margin-bottom: 180px;
+}
+    #ro table tr td{
+        margin-left: 10px;
+
+
+
+}
+#me{
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 40px;
+
+}
+#me p{
+    font-size: 30pt;
+    font-family: E-SQUARE;
+    font-weight:bold ;
+    padding: 16px;
+}
+#center{
+    background-color: green;
+    height:705px;
+    margin-top: 20px;
+
+
+}
+
+
+#center:hover{
+    background-color:rgb(8, 51, 10);
+}
+#button{
+    padding: 14px;
+    border: 2px solid white;
+   max-width: auto;
+    height: auto;
+    color:white;
+    font-size: 12pt;
+}
+#button:hover{
+    cursor: pointer;
+}
+footer{
+    background-color: green;
+    height: 100pt;
+}
+#rom img{
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+#bottom_line{
+margin-bottom:50px;
+margin-top:50px;
+display:none;
+
+}
+#rom p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15pt;
+}
+#colorme{
+    font-weight: bold;
+    font-size:larger;
+    color:green;
+}
+#rom{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#navbarsExampleDefault ul li:hover{
+border-bottom: 2px solid green;
+}
+#form form label{
+    color:white;
+}
+#form{
+   border-left: 2px solid white;
+background-color: green;
+    color:white;
+    padding: 10px;
+
+
+
+}
+#form form{
+    margin: 20px;
+}
+
+
+@media screen and (min-width: 686px)
+{
+
+    .navbar-nav{
+        margin-left: 340px;
+    }
+
+
+}
+
+    @media screen and (min-width: 774px)
 {
 
 
     #post_image{
-        width:100%;
+        max-width:100%;
         height:300px;
     }
 
 #text1{
     font-size:40pt;
     font-family:Blackoak Std;
-
+    display:none;
 }
 #text2, #text3{
     font-size:20pt;
-    font-family:Franklin Gothic, Medium Arial Narrow
-    Arial, sans-serif;
+    font-family:Aliens & cows;
+   
+    display:none;
 
   }
   #center p{
@@ -88,10 +280,7 @@ margin-bottom: 30px;
     font-family: Book Antiqua;
 }
 
-    #pully{
-        margin-left: 500px;
 
-    }
 
 .rot{
     transform:rotate(-28.22deg);
@@ -128,7 +317,11 @@ margin-bottom: 30px;
     }
 }
 
+.thumbnail{
 
+display:none;
+
+}
   @media screen and (max-width: 1000px)
   {
 
@@ -137,15 +330,15 @@ margin-bottom: 30px;
         margin-left:300px;
     }
     #post_image{
-        width:100%;
+        max-width:100%;
         height:300px;
     }
     #doom ul li{
         color:white;
+        display:block;
         list-style:none;
         font-size: small;
-        font-weight: bold;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
         padding: 5px;
     }
     #center p{
@@ -178,29 +371,10 @@ margin-bottom: 30px;
     display: none;
 }
     }
-
-    @media screen and (min-width:470px){
-              #gree{
-
-            margin-left: 30px;
-
-
-            }}
-            @media screen and (max-width:470px){
-                #gree{
-
-              margin-left: 30px;
-
-
-              }
-
-
-
-    }
-     @media screen and (max-width: 400px)
+     @media screen and (max-width:649px)
     {
         #post_image{
-            width:100%;
+            max-width:100%;
             height:300px;
         }
 #step{
@@ -217,8 +391,6 @@ margin-bottom: 30px;
             color:white;
             list-style:none;
             font-size: smaller;
-            font-weight: bold;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             padding: 5px;
         }
         #pully{
@@ -228,151 +400,51 @@ margin-bottom: 30px;
       font-size:17pt;
        font-family:Blackoak Std;
   }
-
   #text2, #text3{
     font-size:13pt;
     font-family:Franklin Gothic, Medium Arial Narrow
     Arial, sans-serif;
 
   }
-
-
   #ul{
       display: none;
   }
-      }
-
-
-
-
- nav{
-background:white;
- }
-
-#gree{
-width: 200px;
-height: auto;
-background-color: green;
-
-
-}
-#gree span{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 20pt;
-    color: white;
-    padding: 7px;
-}
-#side{
+  .about div{
+    margin-top:-20px;
     background-color: green;
-    height: auto;
-    border-top-left-radius: 20px;
-    margin-top: 40px;
+        }
+        .about{
+            max-width:100%;
+            display: flex;
+            flex-direction:column;
+            flex-wrap:wrap;
+        margin-left:0px;
+
+
+        }
+      }
+      @media screen and (max-width: 575px)
+    {
+
+#doom ul li{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.circle{
+    margin-bottom:20px;
+    border-radius: 30%;
+   margin-left: 0px;
+
+
 }
 #side table tr td{
     color:white;
     padding: 6px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: large;
-}
-#side table{
-    margin-top: 30px;
+    font-size: 10pt;
 }
 
-#doom{
-    margin-top: 30px;
-    background-color: green;
-    height: auto;
+  }
 
-}
-a:hover{
-    color:green;
-}
-
-#doom span{
-    color:white;
-    font-size: 20pt;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 5px;
-
-}
-
-#ro{
-    font-family: E-SQUARE;
-    font-size: 15pt;
-    margin-bottom: 180px;
-}
-    #ro table tr td{
-        margin-left: 10px;
-
-
-
-}
-#me{
-    margin-top: 50px;
-    height: auto;
-    margin-bottom: 40px;
-
-}
-#me p{
-    font-size: 30pt;
-    font-family: E-SQUARE;
-    font-weight:bold ;
-    padding: 16px;
-}
-#center{
-    background-color: green;
-    height:630px;
-    margin-top: 20px;
-
-
-}
-
-
-#center:hover{
-    background-color:black;
-    color:green;
-}
-#button{
-    padding: 14px;
-    border: 2px solid white;
-    width: auto;
-    height: auto;
-    color:white;
-    font-size: 12pt;
-}
-footer{
-    background-color: green;
-    height: 100pt;
-}
-#rom img{
-    margin-left: 80px;
-    margin-bottom: 20px;
-}
-#rom p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:15pt;
-}
-#colorme{
-    font-weight: bold;
-    font-size:larger;
-    color:green;
-}
-#rom{
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-#navbarsExampleDefault ul li:hover{
-border-bottom: 2px solid green;
-}
-#form form label{
-    color:white;
-}
-#form{
-   border-left: 2px solid white;
-background-color: $cyan;
-    color:white;
-
-}
