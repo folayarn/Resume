@@ -1,4 +1,4 @@
-<nav id="nav2" class="navbar navbar-expand-sm shadow-sm fixed-top">
+<nav id="nav2" class="navbar navbar-expand-sm shadow-sm">
     <a class="navbar-brand" href="/"><img src="images/loog.png" width="60" height="60"  /></a>
     <button  class="navbar-toggler " type="button"
      data-toggle="collapse" data-target="#navbarsExampleDefault"
