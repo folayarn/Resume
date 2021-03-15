@@ -9,22 +9,15 @@
 'enctype'=>'multipart/form-data']) !!}
 
 <div class="form-group">
-{{form::label('title', 'project Name')}}
+{{form::label('title', 'Title')}}
 
-{{form::text('title','',['class'=>'form-control'])}}
-
-</div>
-<div class="form-group">
-{{form::label('type', 'project Type')}}
-
-{{form::text('type','',['class'=>'form-control'])}}
+{{form::text('title','',['class'=>'form-control','placeholder'=>'enter title'])}}
 
 </div>
 <div class="form-group">
-{{form::label('description', 'Description')}}
+{{form::label('type', 'Url')}}
 
-{{form::textarea('description','',['id'=> 'article-ckeditor' ,'class'=>'form-control'])}}
-
+<input type="url" name="url" class="form-control" placeholder="htps://"/>
 </div>
 
 
@@ -33,7 +26,7 @@
 
 </div>
 
-{{form::submit('Submit',['class'=>'btn btn-primary'])}}
+{{form::submit('Submit',['class'=>'btn btn-secondary'])}}
 {!!form::close() !!}
 </div>
 <div class="col-md-3">

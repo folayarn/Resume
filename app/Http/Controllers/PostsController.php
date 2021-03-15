@@ -20,9 +20,8 @@ class PostsController extends Controller
     public function index()
     {
 
-
-      $posts= Post::orderBy('id','desc')->paginate(6);
-        return view('pages.project')->with('posts',$posts);
+      $posts= Post::orderBy('id','desc')->get();
+        return response()->json(['posts'=>$posts]);
     }
 
     /**
@@ -32,7 +31,7 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**
@@ -45,9 +44,8 @@ class PostsController extends Controller
     {
         $this->validate($request,[
 'title'=>'required',
-'cover_image'=>'image|nullable|max:3999',
-    'type'=>'required',
-'description'=>'required'
+'cover_image'=>'image|nullable|max:1000',
+    'url'=>'required',
         ]);
 if($request->hasFile('cover_image')){
     $image_name = $request->file('cover_image')->getRealPath();
@@ -61,14 +59,10 @@ $filenameTostore= Cloudder::show(Cloudder::getPublicId(),
     $filenameTostore='back.jpg';
 }
 
-
-
     $post= new Post;
     $post->title= $request->input('title');
-    $post->user_id= auth()->user()->id;
     $post->image=$filenameTostore;
-    $post->description=$request->input('description');
-    $post->type=$request->input('type');
+    $post->url=$request->input('url');
         $post->save();
     return redirect('/works')->with('success','project snippet created');
     }
@@ -81,8 +75,8 @@ $filenameTostore= Cloudder::show(Cloudder::getPublicId(),
      */
     public function show($id)
     {
-        $posts=Post::find($id);
-        return view('posts.show')->with('posts',$posts);
+
+
     }
 
     /**
@@ -110,8 +104,8 @@ $filenameTostore= Cloudder::show(Cloudder::getPublicId(),
         $this->validate($request,[
             'title'=>'required',
             'cover_image'=>'image|nullable|max:3999',
-                'type'=>'required',
-            'description'=>'required'
+            'url'=>'required',
+
                     ]);
             if($request->hasFile('cover_image')){
             $image_name = $request->file('cover_image')->getRealPath();
@@ -130,8 +124,7 @@ $filenameTostore= Cloudder::show(Cloudder::getPublicId(),
                 $post->title= $request->input('title');
                 $post->user_id= auth()->user()->id;
                 $post->image=$filenameTostore;
-                $post->description=$request->input('description');
-                $post->type=$request->input('type');
+                $post->url=$request->input('url');
                     $post->save();
                 return redirect('/works')->with('success','project snippet Updated');
 

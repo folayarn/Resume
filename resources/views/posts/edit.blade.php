@@ -26,17 +26,11 @@
 
         </div>
         <div class="form-group">
-        {{form::label('type', 'project Type')}}
+            {{form::label('type', 'Url')}}
 
-        {{form::text('type',$posts->type,['class'=>'form-control'])}}
+            <input type="url" name="url" class="form-control" placeholder="htps://"/>
+            </div>
 
-        </div>
-        <div class="form-group">
-        {{form::label('description', 'Description')}}
-
-        {{form::textarea('description',$posts->description,['id'=> 'article-ckeditor' ,'class'=>'form-control'])}}
-
-        </div>
 
 
         <div class="form-group">

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Post;
 use Illuminate\Http\Request;
 
 class PagesController extends Controller
@@ -14,21 +15,15 @@ class PagesController extends Controller
     }
 
     public function index(){
+
         return view('pages.index');
 
+
     }
-    public function about(){
-        return view('pages.about');
-    }
-    public function services(){
-        return view('pages.services');
-    }
-    public function contact(){
-        return view('pages.contact');
-    }
-    public function skills(){
-        return view('pages.skills');
-    }
+   
+
+
+
     public function login(){
         return view('auth.login');
     }
