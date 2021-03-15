@@ -1,0 +1,292 @@
+::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-corner{
+      background:#111e24;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #111e24;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #c2dde9;;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1f353f;
+  }
+
+
+*{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,Tahoma;;
+    padding: 0px;
+    margin: 0px;
+}
+.back_ground{
+background-image: url('back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:700px;
+  color:white;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.navbar-light .navbar-nav .nav-link,
+ .navbar-light .navbar-toggler,.navbar-light .navbar-brand,.navbar-light a,a
+    {
+        color:white;
+    }
+#form{
+    margin-top:50px;
+    box-shadow: 5px 0px 40px rgb(0,0,0,0.5);
+    padding:20px;
+}
+#id{
+    display: none;
+}
+.header{
+    margin-top:300px;
+
+}
+.entry{
+    font-size:35pt;
+}
+#header{
+    font-size: 45pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about{
+
+
+    font-style:italic;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif,Tahoma;
+    font-size:13pt;
+}
+
+#wrapper{
+    width: 200px;
+    height: 50px;
+    background-color:#111e24;
+    color:white;
+    margin-top: 100px;
+border-bottom-right-radius: 140px;
+    padding:5px;
+
+}
+#project .card .card-header{
+background:#111e24;
+color:white;
+
+}
+
+
+.auth{
+    margin-top:100px;
+}
+#project .card{
+height:300px;
+color:#111e24;
+margin-top:85px;
+
+}
+.project{
+    color:#111e24;
+    margin-top:30px;
+}
+.services .card .card-header{
+   background:#111e24;
+   color:white;
+}
+table tr td {
+    margin-left:10px;
+    padding:10px;
+}
+.services .card {
+   padding:0px;
+}
+.services{
+    padding:5px;
+    margin-top:50px;
+}
+
+.about p{
+    color:#111e24;
+    font-weight: 600;
+}
+
+
+.modal {
+    color:#cdcfcd;
+}
+
+#img-res{
+height: 30px;
+width: 30px;
+margin-left:5%;
+}
+#post_image:hover{
+max-width: 90%;
+height: 90%;
+opacity: 0.90;
+}
+#well{
+    padding:8px;
+    margin-top:10px;
+    background:#eff7f0;
+    border-left:3px solid green;
+
+}
+.logo ul li a img,.lo ul li a img{
+display: inline;
+width:20px;
+height:20px;
+
+}
+.logo{
+    margin-left:30%;
+}
+
+.logo ul li,.lo ul li{
+    display: inline;
+list-style:none;
+padding:7px;
+margin-left:5px;
+    }
+.car{
+    margin-top:50px;
+    margin-bottom:100px;
+    box-shadow:5px 5px 5px rgb(0,0,0,0.2);
+    padding:10px;
+    border-width: 0%;
+}
+.car:hover{
+    cursor: pointer;
+    border:1px solid rgb(206, 205, 205);
+}
+
+
+#well #h5 a:after{
+     color:#b8ee7d;
+ }
+ #map {
+    height: 100%;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+
+#nav{
+    font-size:14pt;
+     font-family:Aliens & cows;
+     text-transform:capitalize;
+     margin-bottom:100px;
+
+}
+#nav2{
+    font-size:14pt;
+     font-family:Aliens & cows;
+     text-transform:capitalize;
+     margin-bottom:100px;
+     background-color:#111e24;
+
+}
+
+#message{
+    padding:10px;
+    border:2px solid green;
+     text-decoration:none;
+     cursor: pointer;
+}
+
+.icon{
+    margin-right:5px;
+}
+
+
+
+
+a:hover{
+    color:#111e24;
+}
+
+
+
+
+
+
+.footer{
+    background-color: #111e24;
+    color:rgb(255, 255, 255);
+    height:auto;
+    padding:10px;
+    width: 100%;
+    padding:30px;
+    margin-top:30px;
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 686px)
+{
+    .imd{
+        margin-left:30%;
+    }
+}
+
+@media screen and (min-width: 574px)
+
+{
+    .imd{
+        margin-left:30%;
+    }
+
+
+
+}
+    @media screen and (min-width: 774px)
+{
+
+
+
+
+
+
+
+}
+
+
+
+
+   @media screen and (max-width: 700px)
+  {
+
+
+}
+  @media screen and (max-width: 1000px)
+  {
+
+
+}
+
+     @media screen and (max-width:649px)
+    {
+
+      }
+      @media screen and (max-width: 575px)
+    {
+
+
+
+  }
+
