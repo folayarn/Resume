@@ -10,9 +10,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <link rel="stylesheet" href="{{ secure_asset('css/app.css')}}">
-    <link rel="stylesheet" href="{{secure_asset('css/style.css')}}">
+   
     <script src="{{ secure_asset('js/app.js')}}"></script>
-    <script src="{{ secure_asset('js/main.js')}}"></script>
+   
     <title>@yield('title')::->Portfolio For Space-Tech</title>
     </head>
     <body>
