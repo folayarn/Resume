@@ -12,16 +12,9 @@
 */
 //nav route
 Route::get('/','PagesController@index');
-Route::get('/about','PagesController@about');
-Route::get('/contact','PagesController@contact');
-Route::get('/services','PagesController@services');
-Route::get('/skills','PagesController@skills');
-Route::resource('messages','MessagesController');
+Route::get('/create','PagesController@mywork');
+Route::resource('/messages','MessagesController');
 Route::get('/home', 'HomeController@index');
-
 Route::resource('posts', 'PostsController');
-
 Auth::routes();
-
-Route::get('/works','PagesController@mywork');
 

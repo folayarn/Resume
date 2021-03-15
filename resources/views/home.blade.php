@@ -1,10 +1,13 @@
-@extends('layouts.app')
+@extends('layouts.app_login')
+@section('title')
+Dashboard Admin
+@endsection
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card" >
                 <div class="card-header">Dashboard <br>
                   <small>  welcome back {{auth::User()->name}}! </small>
                 </div>
@@ -17,12 +20,12 @@
                     @endif
 
                     <ul style="list-style:none">
-<li style="padding-bottom:10px"><a href="/works" >Publish Project</a></li>
+<li style="padding-bottom:10px"><a href="/create" style="color:black">Publish Project</a></li>
                     <li style="padding-bottom:10px"><a href="/posts" class="btn btn-success">Post
-                    <span class="badge" style="background:white">{{$posts}}</span></a></li>
+                    <span class="badge" style="background:white;color:black">{{$posts}}</span></a></li>
 
                     <li style="padding-bottom:10px"><a href="/messages" class="btn btn-success">Messages
-                    <span class="badge" style="background:white">{{$msg}}</span></a></li>
+                    <span class="badge" style="background:white;color:black">{{$msg}}</span></a></li>
 
                     </ul>
 

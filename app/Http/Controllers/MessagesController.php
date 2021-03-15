@@ -44,17 +44,15 @@ class MessagesController extends Controller
 
             'name'=>'required',
             'email'=>'required',
-'title'=>'required',
-'body'=>'required'
+            'body'=>'required'
 
         ]);
         $message= new Message;
         $message->name= $request->input('name');
         $message->email= $request->input('email');
-        $message->title= $request->input('title');
         $message->body= $request->input('body');
         $message->save();
-        return redirect('/contact#form')->with('success','message sent successfully');
+        return response(['success'=>'message sent successfully']);
     }
 
     /**

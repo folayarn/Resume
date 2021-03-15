@@ -1,6 +1,9 @@
-@extends('layouts.app')
+@extends('layouts.app_login')
+@section('title')
+Feed Back
+@endsection
 @section('content')
-<div class="col-md-12" style="padding:8px">
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="margin-top:100px">
     <a href="/home" class="btn btn-success">Go Back</a>
         </div>
 <div class="col-md-12" style="background:#dff3e1">

@@ -1,80 +1,78 @@
-@extends('layouts.app')
-@section('content')
 
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="rom">
+<div id='wrapper'><h2 class="text-center">Our Services</h2></div>
 
-<div class="row">
-    <div class="col-md-4">
-        <div class="col-md-4">
-<img class="img-responsive" src="images/website.png">
-        </div>
+<div class="row services">
 
-<p class="text-center" id="colorme">Web Design</p>
-<div class="text-center">
-  <p>My approach to website design is to create a website that strengthens your company’s
-    brand while ensuring ease of use and simplicity for your audience.</p>
+    <div class=" card col-md-4">
+    <div class="card-header">
+        <table><tr>
+<td><img class="img-responsive" id="img-res" src="images/website.png"></td>
+<td><h4 class="text-left">Digital Marketing</h4></td>
+               </tr>
+               </table>
+               </div>
+               <div class="card-body">
+  <p class="text-left">Build a house for your business online,let the world see what you are selling</p>
 </div>
-
-    </div>
-    <div class="col-md-4">
-        <div class="col-md-4">
-        <img class="img-responsive" id="img-res" src="images/webde.png">
-        </div>
-        <p class="text-center" id="colorme">Website Development</p>
-        <div class="text-center">
-        <p>The web development process involves taking the graphical elements defined in the design
+</div>
+        <div class=" card col-md-4">
+        <div class="card-header">
+            <table><tr>
+               <td> <img class="img-responsive" id="img-res" src="images/webde.png"></td>
+               <td> <h4 class="text-left" >Website Development</h4></td>
+            </tr>
+            </table>
+            </div>
+            <div class="card-body">
+        <p class="text-left">The web development process involves taking the graphical elements defined in the design
             process and coding them into a custom Wordpress theme.</p>
     </div>
     </div>
-    <div class="col-md-4">
-        <div class="col-md-4">
-        <img class="img-responsive" id="img-res" src="images/logo.png">
-        </div>
-        <p class="text-center" id="colorme">Logo Design</p>
-        <div class="text-center">
-           <p> My goal is to design a professional yet creative logo that reflects your company’s spirit and leaves a
-             lasting, memorable effect.</p>
 
-        </div>
+        <div class="card col-md-4">
+        <div class="card-header">
+            <table><tr>
+                <td>
+        <img class="img-responsive" id="img-res" src="images/logo.png"></td>
+       <td> <h4 class="text-left">Graphic Designs</h4></td>
+                </tr></table>
+                </div>
+                <div class="card-body">
+ <p class="text-left"> This services includes designs for Logo,Info-graphics,book cover,album cover,movie cover,banners,flyers etc </p>
     </div>
-
 </div>
-<div class="row">
-    <div class="col-md-4">
-        <div class="col-md-4">
-<img class="img-responsive" id="img-res" src="images/app.png"></div>
-<p class="text-center" id="colorme">App Design</p>
-<div class="text-center">
 
-    <p>My approach is to create an app design that strengthens your company’s brand while
+        <div class="card col-md-4">
+        <div class="card-header">
+        <table><tr>
+               <td>
+<img class="img-responsive" id="img-res" src="images/app.png"></td>
+<td><h4 class="text-left" >Mobile App Development</h4></td>
+</tr>
+</table>
+</div>
+<div class="card-body">
+    <p class="text-left">Our approach is to create an app that strengthens your company’s brand while
         ensuring ease of use and simplicity for your audience.</p>
 </div>
-    </div>
-    <div class="col-md-4">
-        <div class="col-md-4">
-        <img class="img-responsive" id="img-res" src="images/wordpress.png">
-        </div>
-        <p class="text-center" id="colorme">Wordpress</p>
-<div class="text-center">
-    <p>The web development process involves taking the graphical elements defined in
-         the design process and coding them into a custom Wordpress theme.</p>
-    </div>
-    </div>
-    <div class="col-md-4">
-        <div class="col-md-4">
-        <img class="img-responsive" id="img-res" src="images/social.png"></div>
+</div>
+        <div class=" card col-md-4">
+        <div class="card-header">
+        <table><tr>
+               <td>
+        <img class="img-responsive" id="img-res" src="images/social.png"></td>
 
- <p class="text-center" id="colorme">Social Median Integration</p>
-<div class="text-center">
-
-    <p>Social media integration enables your website to post updates to Facebook,
-    displays a Twitter feed, and links to your social media accounts.</p>
-
-    </div>
-
+ <td><h4 class="text-left" >Social Media Management</h4></td>
+</tr>
+</table>
+</div>
+<div class="card-body">
+    <p class="text-left">We help to manage your Social Median account,to give your followers
+        a consistent Update either you are online or offline</p>
 </div>
     </div>
 </div>
 
 
-@endsection
+
+
