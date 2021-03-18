@@ -16,7 +16,8 @@ Homepage
    <h4 class="text-left" id="entry">
         <span style="font-weight:bolder;font-size:30pt; color:rgb(141, 61, 134)">I am sola,</span>
         a Freelancer, Software Developer and a Graphic Designer based in
-        <span style="color:rgb(14, 75, 14);font-weight:bolder;font-size:20pt">Ni</span>ger <span style="font-weight:bolder;font-size:20pt;color:rgb(14, 75, 14)">ia</span>
+        <span style="color:rgb(14, 75, 14);font-weight:bolder;font-size:20pt">Ni</span>ger <span style="font-weight:bolder;font-size:20pt;color:rgb(14, 75, 14)">ia</span>.
+<br/>
       <br/> Scroll down to view some of my previous Projects
       <br/><br/><a href="#foot" class="btn btn-default" style="color:white;background-color:rgb(141, 61, 134)"><span class="fa fa-envelope"> Get in Touch</span></a>
 
