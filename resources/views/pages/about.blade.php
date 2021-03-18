@@ -22,8 +22,7 @@ I am a web developer with a vast array of knowledge in many different front end 
         <li> <a href="https://stackoverflow.com/users/10776330/shola-michael"> <img src="/images/stack.png" /></a></li>
         <li> <a href="https://www.linkedin.com/in/folayanshola-adesola-a508b5133/"> <img src="/images/linkedin.png" /></a></li>
         <li> <a href="https://web.facebook.com/genesisdesignx"> <img src="/images/facebook.png" /></a></li>
-        <li> <a href="https://twitter.com/folayarn"> <img src="/images/twitter.png" /></a></li>
-        <li> <a href="https://www.instagram.com/borjack_horseman/"> <img src="/images/instagram.png" /></a></li>
+    
         
         
         
