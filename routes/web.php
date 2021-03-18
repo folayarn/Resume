@@ -16,5 +16,7 @@ Route::get('/create','PagesController@mywork');
 Route::resource('/messages','MessagesController');
 Route::get('/home', 'HomeController@index');
 Route::resource('posts', 'PostsController');
+Route::prefix('/yrdnck-version')->group(function()
+{
 Auth::routes();
-
+});
