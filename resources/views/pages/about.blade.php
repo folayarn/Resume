@@ -6,7 +6,7 @@
 
 
 
-<div id='wrapper'><h2 class="text-center">About Us</h2></div>
+<div id='wrapper'><h2 class="text-center">About Me</h2></div>
     <div class="row about">
         <div class="col-md-3 col-lg-3"></div>
 
