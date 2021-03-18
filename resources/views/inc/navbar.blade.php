@@ -21,24 +21,25 @@
             </li>
             <li class="nav-item ">
 
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#home">Homepage
+</a>
             </li>
             
             <li class="nav-item ">
 
-                <a class="nav-link" href="#service">Our Services</a>
+                <a class="nav-link" href="#service">My Services</a>
             </li>
             <li class="nav-item ">
 
-                <a class="nav-link" href="#project">Projects</a>
+                <a class="nav-link" href="#project">My Projects</a>
             </li>
             <li class="nav-item ">
 
-                <a class="nav-link" href="#about">About Us</a>
+                <a class="nav-link" href="#about">About Me</a>
             </li>
             <li class="nav-item ">
 
-                <a class="nav-link" href="#foot">Contact Us</a>
+                <a class="nav-link" href="#foot">Get in Touch</a>
             </li>
       </ul>
   </nav>
