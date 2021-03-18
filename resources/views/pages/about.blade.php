@@ -13,9 +13,7 @@
 <div class="col-md-6 col-lg-6 car">
             <img src="images/about.png" class="img-fluid imd" height="300" width="300">
                   <p  class=" text-center" style="margin-top:-130px">                 
-    I’m a web developer. I spend my whole day, practically every day, experimenting with HTML, CSS, and JavaScript; dabbling with Python and PHP; and inhaling a wide variety of potentially useless information through a few hundred RSS feeds. I build websites that delight and inform. I do it well.
-
-I’m curious, and I enjoy work that challenges me to learn something new and stretch in a different direction. I do my best to stay on top of changes in the state of the art so that I can meet challenges with tools well suited to the job at hand. 
+I am a web developer with a vast array of knowledge in many different front end and back end languages, responsive frameworks, databases, and best code practices. My objective is simply to be the best web developer that I can be and to contribute to the technology industry all that I know and can do.
                 </p>
 <div class="logo">
 
