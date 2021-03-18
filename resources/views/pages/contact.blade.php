@@ -2,8 +2,8 @@
 <div class="row">
     <div class="col-md-4">
         <address>  <h1>Address</h1>
-            <span class="fa fa-map icon"></span>  Zone 1, Folayan Street, Ayekale Area, Ota-efun Road,
-         Osogbo, Osun State,Nigeria
+            <span class="fa fa-map icon"></span>  Zone 1, Folayan Street Ayekale Area Ota-efun Road,
+         Osogbo, Osun State Nigeria. 
 <br/>
 
          <span class="fa fa-phone icon"></span> <a href="tel:07033011638">07033011638</a>
