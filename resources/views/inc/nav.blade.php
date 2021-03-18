@@ -17,11 +17,11 @@
             @guest
             @if (Route::has('register'))
             <li class="nav-item">
-                <a class="nav-link" href="/login">Login</a>
+                <a class="nav-link" href="/yrdnck-version/login">Login</a>
 
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/register">Register</a>
+                <a class="nav-link" href="/yrdnck-version/register">Register</a>
 
             </li>
         @endif
