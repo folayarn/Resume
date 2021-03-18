@@ -1,5 +1,5 @@
 
-<div id='wrapper'><h2 class="text-center">Our Services</h2></div>
+<div id='wrapper'><h2 class="text-center">My Services</h2></div>
 
 <div class="row services">
 
