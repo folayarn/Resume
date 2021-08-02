@@ -24,7 +24,11 @@
                 <a class="nav-link" href="#home">Homepage
 </a>
             </li>
-            
+            <li class="nav-item ">
+
+                <a class="nav-link" href="https://tutorialsconnect.herokuapp.com/">Tutorials
+</a>
+            </li>
             <li class="nav-item ">
 
                 <a class="nav-link" href="#service">My Services</a>
